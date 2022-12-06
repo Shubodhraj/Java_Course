@@ -1,11 +1,12 @@
 package Files;
 
 import java.io.File;
-import java.io.Console;
+// import java.io.Console;
 
 public class FirstFile {
     public static void main(String[] args) {
-        File f = new File("/home/subodh/Public/Java/Files/file1.txt");
+        File f = new File("input.txt");
+        // File f = new File("/home/subodh/Public/Java/Files/file1.txt");
         System.out.println("File name :" + f.getName());
         System.out.println("Path: " + f.getPath());
        

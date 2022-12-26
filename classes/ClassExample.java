@@ -1,5 +1,11 @@
 package classes;
 
+import java.util.Dictionary;
+import java.util.Hashtable;
+
+import javax.naming.spi.DirObjectFactory;
+import javax.sound.sampled.SourceDataLine;
+
 public class ClassExample {
 
   void displayInfo(String name, String add, int roll) {
@@ -17,6 +23,8 @@ public class ClassExample {
     ce.displayInfo("Ayush", "Kathmandu", 12244);
 
   }
+  Dictionary d = new Hashtable<>() {
+  };
   
 }
 

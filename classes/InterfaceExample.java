@@ -1,4 +1,6 @@
 package classes;
+      
+import java.util.*;
 
 interface InterfaceExample {
     double length = 5;
@@ -20,6 +22,10 @@ public static void main(String[] args) {
     TestInterface ti = new TestInterface();
     ti.calcArea();
     ti.showArea();
+    Dictionary d = new Hashtable();
+    
 }
 
 }
+
+ 

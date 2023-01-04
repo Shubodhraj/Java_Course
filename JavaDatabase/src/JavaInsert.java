@@ -13,16 +13,16 @@ class Main {
         String pass = "mynewp@ssw0rD"; // you had set up during installing the mysql.
 
         try {
-            Scanner k = new Scanner(System.in); // here we are taking the input from the user.
-            System.out.println("enter name");
-            String name = k.next();
-            System.out.println("enter roll");
-            int roll = k.nextInt();
-            System.out.println("enter class");
-            String cls = k.next();
-            k.close(); //closing the connection of scanner class.
+            // Scanner k = new Scanner(System.in); // here we are taking the input from the user.
+            // System.out.println("enter name");
+            // String name = k.next();
+            // System.out.println("enter roll");
+            // int roll = k.nextInt();
+            // System.out.println("enter class");
+            // String cls = k.next();
+            // k.close(); //closing the connection of scanner class.
 
-            String sql = "insert into student1 values('" + name + "','" + roll + "', '" + cls + "')";
+            String sql = "insert into student1 values('HariHari',12,'bcaca')";
 
             Connection con = null;
 

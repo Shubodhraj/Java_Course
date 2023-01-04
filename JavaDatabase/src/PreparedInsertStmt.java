@@ -1,3 +1,4 @@
+
 import java.sql.*;
 
 
@@ -10,6 +11,7 @@ public class PreparedInsertStmt {
         String query = "insert into student1 values(?,?,?)";
 
         try{  
+        
         Class.forName("com.mysql.cj.jdbc.Driver");  
           
         Connection con=DriverManager.getConnection(url, user, pass);  
@@ -23,12 +25,25 @@ public class PreparedInsertStmt {
         stmt.setString(3, "BECOM");  
           
         int i=stmt.executeUpdate();  
+        
         System.out.println(i+" records inserted");  
           
         con.close();  
           
-        }catch(Exception e){ System.out.println(e);}  
+        }
+        catch(Exception e)
+        { 
+            System.out.println(e);
+        }  
           
         }  
-        } 
+    } 
+
+
+
+
+
+
+
+
 

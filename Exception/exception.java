@@ -30,9 +30,9 @@ class ExceptionHandling {
 
 class ExceptionHandling2 {
 
-    static void func1() {
-        int x = 5;
-        int y = 0;
+    static void func1(int x, int y) {
+        // int x = 5;
+        // int y = 0;
         try{
         float z = x / y;
         System.out.println(z);
@@ -46,7 +46,7 @@ class ExceptionHandling2 {
 
     public static void main(String[] args) {
         
-        func1();
+        func1(5,0);
 
         System.out.println("We handled exception well");
     }

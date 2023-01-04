@@ -1,0 +1,13 @@
+Package: mysql-connector-j
+Version: 8.0.31-1ubuntu22.04
+Architecture: all
+Maintainer: Oracle MySQL Product Engineering Team <mysql-build@oss.oracle.com>
+Installed-Size: 2584
+Breaks: mysql-connector-java (<< 8.0.31)
+Replaces: mysql-connector-java (<< 8.0.31)
+Provides: mysql-connector-java
+Section: database
+Priority: optional
+Homepage: http://dev.mysql.com/downloads/connector/j/
+Description: MySQL Connector/J
+ Standardized MySQL database driver for Java
